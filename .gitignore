@@ -3,6 +3,7 @@ bin/*
 build/*
 lib/*
 out/*
+obj/*
 CMakeSettings.json
 CMakeUserPresets.json
 vcpkg_installed/*
@@ -47,3 +48,11 @@ docs/xml/
 docs/Doxyfile
 docs/conf.py
 docs/.venv/
+
+# Visual Studio
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+**.csproj
